@@ -1,110 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>赵铨的个人主页</title>
+<title>Zhao Quan | Home Page</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 
-<script src="js/jquery-1.7.1.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/jquery-1.7.1.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div id="new-header">
-		<script>
-			$("#new-header").load("header.html");
-		</script>
-	</div>
-
-	<div class="container">
+        <script>
+            $("#new-header").load("../templates/header.html");
+        </script>
+    </div>
+    
+    <div class="container">
 		<div class="row">
 			<hr>
 
 			<nav class="navbar navbar-default" role="navigation">
 				<div class="navbar-header">
-					<img alt="" src="images/self_2.JPG" class="img-circle" style="width: 50px;">
+					<img alt="" src="../images/self_2.JPG" class="img-circle" style="width: 50px;">
 				</div>
 				<div>
 					<ul class="nav navbar-nav">
-						<li><a href="/home/papers.html">文章</a></li>
-						<li class="active"><a href="#">项目</a></li>
-						<li><a href="/home">关于我</a></li>
+						<li><a href="papers.html">Papers</a></li>
+						<li class="active"><a href="#">Projects</a></li>
+						<li><a href="../index.html">About me</a></li>
 					</ul>
 				</div>
 			</nav>
 		</div>
-	</div>
-
+    </div>
+	
 	<div class="container">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-2" style="margin-top: 20px">
-					<h5>[2015年]</h5>
+					<h5>[2015]</h5>
 				</div>
 				<div class="col-sm-6"
 					style="border-left: 1px; padding-left: 30px; margin-left: 20px;">
-					<h2>中文书籍信息挖掘</h2>
-					<p>自豆瓣图书上爬取书籍信息，进而根据书籍的出版社，作者等信息进行分析。</p>
+					<h2>Book Digger</h2>
+					<p>Crawl data from Douban, and analysis books info.</p>
 				</div>
 				<div class="col-sm-1" style="margin-top: 20px">
-					<a href="https://github.com/felixzhao/BookDigger" target="_blank">源码</a>
+					<a href="https://github.com/felixzhao/BookDigger" target="_blank">Source</a>
 				</div>
 			</div>
 			<hr>
 			
 			<div class="row">
 				<div class="col-sm-2" style="margin-top: 20px">
-					<h5>[2014年]</h5>
+					<h5>[2014]</h5>
 				</div>
 				<div class="col-sm-6"
 					style="border-left: 1px; padding-left: 30px; margin-left: 20px;">
-					<h2>中文分词</h2>
-					<p>最大正向分词。</p>
+					<h2>Word Segmentation</h2>
+					<p>Based on Maximum Matching algorithm.</p>
 				</div>
 				<div class="col-sm-1" style="margin-top: 20px">
-					<a href="https://github.com/felixzhao/WordSegmentation" target="_blank">源码</a>
+					<a href="https://github.com/felixzhao/WordSegmentation" target="_blank">Source</a>
 				</div>
 			</div>
 			<hr>
 			
 			<div class="row">
 				<div class="col-sm-2" style="margin-top: 20px">
-					<h5>[2013-2014年]</h5>
+					<h5>[2013-2014]</h5>
 				</div>
 				<div class="col-sm-6"
 					style="border-left: 1px; padding-left: 30px; margin-left: 20px;">
-					<h2>束搜索算法</h2>
-					<p>使用束搜索算法，优选搜索结果</p>
+					<h2>Beam Search</h2>
+					<p>results tuning by Beam search algorithms.</p>
 				</div>
 				<div class="col-sm-1" style="margin-top: 20px">
-					<a href="https://github.com/felixzhao/Beam_Search" target="_blank">源码</a>
+					<a href="https://github.com/felixzhao/Beam_Search" target="_blank">Source</a>
 				</div>
 			</div>
 			<hr>
 			
 			<div class="row">
 				<div class="col-sm-2" style="margin-top: 20px">
-					<h5>[2013年]</h5>
+					<h5>[2013]</h5>
 				</div>
 				<div class="col-sm-6"
 					style="border-left: 1px; padding-left: 30px; margin-left: 20px;">
-					<h2>中文情感倾向分析</h2>
-					<p>基于语言模型及种子情感词进行情感倾向分析。</p>
+					<h2>Emotion Words Detector</h2>
+					<p>Emotion Words Detector for Chinese characters, based on n-gram.</p>
 				</div>
 				<div class="col-sm-1" style="margin-top: 20px">
-					<a href="https://github.com/felixzhao/EmotionWordsDetector" target="_blank">源码</a>
+					<a href="https://github.com/felixzhao/EmotionWordsDetector" target="_blank">Source</a>
 				</div>
 			</div>
 			
 		</div>
 		<hr>
 	</div>
-
 	
 	<div id="new-footer">
-		<script>
-			$("#new-footer").load("footer.html");
-		</script>
-	</div>
+        <script>
+            $("#new-footer").load("../templates/footer.html");
+        </script>
+    </div>
 </body>
 </html>

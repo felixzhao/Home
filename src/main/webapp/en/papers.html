@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zhao Quan | Home Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+<script src="../js/jquery-1.7.1.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div id="new-header">
+        <script>
+            $("#new-header").load("../templates/header.html");
+        </script>
+    </div>
+    
+    <div class="container">
+		<div class="row">
+			<hr>
+
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<img alt="" src="../images/self_2.JPG" class="img-circle" style="width: 50px;">
+				</div>
+				<div>
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Papers</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="../index.html">About me</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+    </div>
+	
+	<div class="container">
+		<div class="container">
+		<div class="row">
+			<div class="col-sm-1" style="margin-top:20px">
+				<h5>[2015]</h5>
+			</div>
+			<div class="col-sm-2" style="margin-top:20px">
+				<img alt="" src="../images/paper_1.JPG" style="width:200px;">
+			</div>
+			<div class="col-sm-7" style="border-left: 1px; padding-left: 30px;  margin-left:20px;">
+				<h2>The Potential Application of One-dimensional Encoding of Chinese Characters in Statistical Machine Translation</h2>
+				<p>The processing of Chinese characters based on statistical methods has long been troubled by the sparse of the problem space, 
+				due to the overwhelming size of character space. The underlying cause of this
+				situation is that single Chinese character has been treated as the smallest unit in common statistical process, 
+				which makes methods suitable of alphabetic languages unable to be applied to Chinese corpus successfully.
+				In this study, we introduced one-dimensional encoding of Chinese characters to try to resolve the black box of
+				Chinese. Aiming to minimize and even overcome the wide gap between Chinese language and alphabetic languages, in this study, 
+				strived to improve the performance of commonly-used approaches on Chinese corpus and make it possible to 
+				deploy more techniques previously applied to alphabetic languages only on Chinese corpus.</p>
+			</div>
+			<div class="col-sm-1" style="margin-top:20px">
+				<a href="http://www.csmoe.sjtu.edu.cn/display.jsp?name=lun_wen_4_88" target="_blank">PDF</a>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="new-footer">
+        <script>
+            $("#new-footer").load("../templates/footer.html");
+        </script>
+    </div>
+</body>
+</html>
